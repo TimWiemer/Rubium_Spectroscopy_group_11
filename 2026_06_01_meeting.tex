@@ -1,0 +1,77 @@
+\documentclass{article}
+%PACKAGES
+
+\usepackage{graphicx}      %Voor het gebruik van figuren
+\usepackage[utf8]{inputenc}%utf8 betekent dat naast de gewone 
+                           %letters LaTeX ook letters zoals ë 
+                           %á etc herkent %i.p.v.  {'o} voor ó
+
+\usepackage{hyperref}     %Voor gebruik van links 
+
+\usepackage{xcolor}       % voor gebruik van gekleurde tekst 
+                          %probeer  \textcolor{red}{is dit rood?}
+                          %Handig voor zichtbare herinneringen
+\usepackage[dutch]{babel} %Voor het gebruik van Nederlandse taal
+                          %en voor de automatische titels 
+                          %zoals inhoudsopgave en referentielijst.
+
+\usepackage{amsmath}      %Voor  wiskundige vergelijkingen
+\usepackage{amssymb}      %Voor  wiskundige symbolen
+
+\usepackage{tabularx}     %Voor het gebruik van tabellen
+\usepackage{array}        %Voor multicol in tabellen
+
+\usepackage{lipsum}   %voor lipsum dummytekst
+
+%PACKAGES EN OPZET VOOR REFEREREN
+\usepackage{csquotes}        % (nodig voor biblatex i.c.m. babel)
+\usepackage[style=numeric, sorting=none]{biblatex}
+\addbibresource{references.bib} %Zelfde naam als bib-bestand
+
+
+%Specifiek toegevoegd voor het voorbeeld (staat dus niet in template)
+\usepackage{pdfpages} %Voor het invoegen van PDF argumentatieschema
+
+\title{Meeting 1}
+\author{Tim Wiemer}
+\date{2026/06/2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Checklist}
+
+\begin{enumerate}
+    \item{Was iedereen aanwezig} \\ Ja
+    \item{Cijfer doelstelling} \\ Zo hoog mogelijk, 8
+    \item{Sterke en zwakke punten}\\
+    Tim: Coderen (S), Spelling en schrijven (Z),  \\
+    Younes: Coderen (Z), Oplossend denken (S), Engels spreken (Z) \\ 
+    Brecht: Coderen (Z), Formules herleiden (S)\\ 
+    Amber: Coderen (Z), Creatief (S)\\
+    \item{beschikbaarheid} elke dag van 9-17 beschikbaar, elke dag.\\
+        Behalve Amber: donderdag en vrijdag helemaal niet.\\
+        Tim: Woensdag 3juni enkel in de ochtend.
+    \item{Rubric gelezen}, 
+    \item{wat willen we leren}: 
+        Wat is het leven van een onderzoeker, hoe ziet het dagelijksleven van een wetenschapper eruit. 
+    \item{ Hebben we vragen voor de supervisor}:\\
+        Wie bent u? \\
+        Heeft u hobbies? \\
+        Lievelingskleur? \\
+        favoriete snack? \\
+    \item{Vragen over de literatuur}\\
+        Wat betekend de FWHM nou precies, hoe moeten we dat interpreteren?\\
+        Wat als we nu wel gaan kijken naar de relativistische aspecten\\
+    \item{Wat willen we bereiken}\\
+        We willen meer practische ervaring opdoen. \\
+        We willen leren hoe github werkt
+    \item{Hebben we ervaring met Git / programeren}\\
+        We hebben enkel ervaring met programmeren
+    \item{Hoe was onze ervaring met DAS / NSP1}\\
+        Das was prima en goed te doen. \\
+        NSP1, veel geprogrameerd, best wel leuk. Labjournaal kostte veel moeite.
+\end{enumerate}
+
+\end{document}
